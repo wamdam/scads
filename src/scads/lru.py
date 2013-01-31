@@ -1,6 +1,10 @@
 #!/usr/bin/env python
 # -*- encoding: utf-8 -*-
 
+# LRU Cache, based heavily on
+# https://code.activestate.com/recipes/
+# 578078-py26-and-py30-backport-of-python-33s-lru-cache/
+
 from threading import Lock
 lock = Lock()
 
