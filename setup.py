@@ -32,7 +32,7 @@ class PyTest(Command):
 setup(name='scads',
       version='0.1',
       description='Scalable Data Structures',
-      long_description=read('src/scads/docs/index.rst'),
+      long_description=read('docs/index.rst'),
       classifiers=[
           "Programming Language :: Python",
       ],
